@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    background-color: white;
+}
+
+header img {
+    max-height: 60px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+}
+
+.carousel-indicators button {
+    background-color: white;
+}
+
+.carousel-indicators button.active {
+    background-color: black;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav,
+a.nav-link,
+.nav-pills {
+    color: #fff;
+}
+
+a.nav-link:hover {
+    color: #4A462A;
+}
+
+.nav-link.active,
+.show > .nav-link {
+    background-color: #4A462A !important;
+}
+
+#nav-educacional {
+    background-color: #0C97D1;
+}
+
+#nav-catalogo {
+    background-color: #84BB3F;
+}
+
+#nav-institucional {
+    background-color: #FECA00;
+}
+
+#nav-contato {
+    background-color: #DC006E;
+}
+
+.educacional img {
+    border-radius: 100%;
+    height: 20em;
+}
+
+#divisoria-azul {
+    background-color: #8ACDE8;
+}
+
+#divisoria-verde {
+    background-color: #9DE88A;
+}
+
+#divisoria-amarela {
+    background-color: #FFF688;
+}
+
+#divisoria-rosa {
+    background-color: #FF90C5;
+}
+
+.card {
+    background-color: white;
+    border-color: #e7e7e7;
+    cursor: pointer;
+}
+
+#card1:hover {
+    background-color: #DC006E;
+}
+
+#card2:hover {
+    background-color: #9CC26D;
+}
+
+#card3:hover {
+    background-color: #FFE271;
+}
+
+#institucional-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#catalogo-pills.nav-pills,
+#catalogo-pills.nav-link:active {
+    padding-left: 2em;
+    max-width: 90%;
+}
+
+.nav-link {
+    color: #4A462A;
+}
+
+.nav-link:hover {
+    color: #4A462A;
+}
+
+.texto-55 {
+    text-align: justify;
+}
+
+#subtitulo-rosa {
+    color: #DC006E;
+}
+
+#contato img {
+    border-radius: 100%;
+    max-width: 80%;
+    margin-left: 40px;
+}
+
+#btn-enviar {
+    background-color: #DC006E;
+    color: white;
+    display: flex;
+}
+
+.form-control:focus {
+    border-color: #FECA00;
+    box-shadow: none;
+}
+
+.btn-group.btn:hover {
+    color: #0C97D1;
+}
+
+#copyright {
+    font-size: smaller;
+}
+
+@media (max-width: 767px) {
+    
+}
