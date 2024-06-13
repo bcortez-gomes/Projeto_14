@@ -86,7 +86,6 @@ a.nav-link:hover {
 
 .card {
     background-color: white;
-    border-color: #e7e7e7;
     cursor: pointer;
 }
 
@@ -112,6 +111,14 @@ a.nav-link:hover {
 #catalogo-pills.nav-link:active {
     padding-left: 2em;
     max-width: 90%;
+}
+
+.tab-pene {
+    align-items: center;
+}
+
+.tab-conteudo {
+    display: none;
 }
 
 .nav-link {
@@ -151,9 +158,14 @@ a.nav-link:hover {
     color: #0C97D1;
 }
 
+footer img {
+    width: 7em;
+}
+
 #copyright {
     font-size: smaller;
 }
+
 
 @media (max-width: 767px) {
     
